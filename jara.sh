@@ -2,8 +2,8 @@
 #PBS -N balance
 #PBS -l select=2:ncpus=128:mpiprocs=16,walltime=00:00:15
 #PBS -q qexp
-#PBS -e balance.e
-#PBS -o balance.o
+#PBS -e bal.e
+#PBS -o bal.o
 
 cd ~/mpi_balance
 pwd
